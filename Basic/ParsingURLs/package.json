@@ -1,15 +1,14 @@
 {
-  "name": "serving_static_files",
+  "name": "parsing_urls",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dat Chau",
   "license": "ISC",
   "devDependencies": {
-    "connect": "*",
-    "serve-static": "*"
+    "url": "^0.11.0"
   }
 }

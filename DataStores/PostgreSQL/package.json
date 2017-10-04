@@ -1,0 +1,14 @@
+{
+  "name": "postgresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dat Chau",
+  "license": "ISC",
+  "devDependencies": {
+    "pg": "^7.3.0"
+  }
+}

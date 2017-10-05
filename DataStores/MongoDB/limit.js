@@ -8,5 +8,15 @@ client.connect(url, function(err,db){
     if(err) throw err;
     
     console.log("Database connected");
-    db.close();
+    //db.close();
+    
+    //--- Limit ---
+        db.collection("foodgroups").find().limit(5).toArray(function(err, result){
+            if(err) throw err;
+
+            console.log(result);
+            db.close();
+        });
+    //--------------
+
 });
